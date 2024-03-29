@@ -13,13 +13,13 @@ namespace ChercherLeMot
         {
             // chercher le mot melangé by Olivia Gamo
 
-            Console.WriteLine("****************** BIENVENU DANS LE CHERCHEUR DE MOTS MELANGES *********************\n");
-            Console.WriteLine("***************************************************************************** BY GTOL \n");
+            Console.WriteLine("****************** BIENVENU DANS LE PROGRAMME MOT RECHERHER*********************\n");
+            Console.WriteLine("*****************************************❤️❤️************************************ BY GTOL \n");
 
             // creation et initialisation d'une liste  avec chaque ligne du fichier Dictionnaire.txt (en minuscule et sans espace blanc de debut ou de fin)
             IList<string> motsDuDictionnaire = File.ReadAllLines("Dictionnaire.txt").Select(item => item.ToLower().Trim()).ToList();
 
-            Console.WriteLine("Entrez les mots melangés  en separant chacun par une virgule \n\n");
+            Console.WriteLine("Entrez vos mots inverser en separant chacun par une virgule \n\n");
             string motMelanger=Console.ReadLine();
             Console.WriteLine("\n");
             // recuperer les entrées et les stockees dans une liste  de chaines de caracteres avec comme delimitateur ","
